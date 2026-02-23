@@ -1,0 +1,30 @@
+{
+  "name": "@where-org/where-client",
+  "version": "2.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Masafumi Sasahara <masafumi@sashara.io> (https://github.com/masafumi-sasahara/)",
+  "homepage": "https://where-org.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/where-org/where-client.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.js",
+  "browser": {
+    "./lib/server/formdata.js": "./lib/server/formdata-browser.js",
+    "./lib/socket/websocket.js": "./lib/socket/websocket-browser.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@where-org/where-common": "^2.0.1",
+    "axios": "^1.13.5",
+    "form-data": "^4.0.5",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "@types/websocket": "^1.0.10"
+  }
+}
