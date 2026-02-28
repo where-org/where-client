@@ -1,6 +1,7 @@
 # where-client
+Client for where-server / where-socket
 
-## install
+## Installation
 ```
 npm install @where-org/where-client
 ```

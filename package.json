@@ -1,7 +1,7 @@
 {
   "name": "@where-org/where-client",
-  "version": "2.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "Client for where-server / where-socket",
   "license": "MIT",
   "author": "Masafumi Sasahara <masafumi@sashara.io> (https://github.com/masafumi-sasahara/)",
   "homepage": "https://where-org.com/",
@@ -16,7 +16,7 @@
     "./lib/server/formdata.js": "./lib/server/formdata-browser.js",
     "./lib/socket/websocket.js": "./lib/socket/websocket-browser.js"
   },
-  "keywords": [],
+  "keywords": ["where-client", "where-server", "where-socket"],
   "dependencies": {
     "@where-org/where-common": "^2.0.1",
     "axios": "^1.13.5",
