@@ -1,6 +1,6 @@
 {
   "name": "@where-org/where-client",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Client for where-server / where-socket",
   "license": "MIT",
   "author": "Masafumi Sasahara <masafumi@sashara.io> (https://github.com/masafumi-sasahara/)",
