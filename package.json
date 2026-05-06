@@ -13,14 +13,17 @@
   "main": "index.js",
   "types": "index.d.js",
   "browser": {
-    "./lib/server/formdata.js": "./lib/server/formdata-browser.js",
+    "./lib/server/user-agent.js": "./lib/server/user-agent-browser.js",
     "./lib/socket/websocket.js": "./lib/socket/websocket-browser.js"
   },
-  "keywords": ["where-client", "where-server", "where-socket"],
+  "keywords": [
+    "where-client",
+    "where-server",
+    "where-socket"
+  ],
   "dependencies": {
     "@where-org/where-common": "^2.0.1",
     "axios": "^1.13.5",
-    "form-data": "^4.0.5",
     "websocket": "^1.0.35"
   },
   "devDependencies": {
